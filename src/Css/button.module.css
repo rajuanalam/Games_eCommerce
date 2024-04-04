@@ -1,0 +1,10 @@
+.button_bg:hover {
+    background: linear-gradient(270deg, #fc00ff 1%, #00dbde 100%);
+}
+.button_bgr{
+    background: linear-gradient(270deg, #fc00ff 1%, #00dbde 100%);
+}
+
+.button_two {
+    background: linear-gradient(164deg, #ff0000 1%, #ffc700 100%);
+}

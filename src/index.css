@@ -1,0 +1,76 @@
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.one{
+  color: #499dff;
+}
+/* .slick-slide > div {
+    margin: 0px 15px;
+  } */
+  @media (min-width: 320px) and (max-width: 575.98px){
+    /* .slick-slide > div {
+      margin: 0px 2px;
+
+    } */
+
+    .responsive-slider{
+ 
+      margin-left: 15px;
+      padding-right: 10px;
+      width:350px;
+    
+    }
+
+    .slick-dots li.slick-active button:before {
+      font-family: 'slick';
+    font-size: 20px;
+    line-height: 20px;
+      color: white;
+      border-radius: 999px;
+  }
+  .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 100;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  }
+
+#txtColor::placeholder{
+    color: black;
+    font-size: 24px;
+}
+
+.phColor::placeholder{
+  color:white;
+  font-size: 24px;
+}
+
+.slick-prev:before {
+    display: none;
+}
+.slick-next:before {
+    display: none;
+}
+.slider-container{
+   
+    width: 1688px;
+    
+}
+
+
+
+
+
